@@ -605,10 +605,11 @@ class Player extends Component {
   }
 
   /**
-   * A getter/setter for the `Player`'s width.
+   * A getter/setter for the `Player`'s width. Returns the player's configured value.
+   * To get the current width use `currentWidth()`.
    *
    * @param {number} [value]
-   *        The value to set the `Player's width to.
+   *        The value to set the `Player`'s width to.
    *
    * @return {number}
    *         The current width of the `Player` when getting.
@@ -618,10 +619,11 @@ class Player extends Component {
   }
 
   /**
-   * A getter/setter for the `Player`'s height.
+   * A getter/setter for the `Player`'s height. Returns the player's configured value.
+   * To get the current height use `currentheight()`.
    *
    * @param {number} [value]
-   *        The value to set the `Player's heigth to.
+   *        The value to set the `Player`'s heigth to.
    *
    * @return {number}
    *         The current height of the `Player` when getting.
@@ -1076,7 +1078,6 @@ class Player extends Component {
       } catch (e) {
         log('deleting tag.poster throws in some browsers', e);
       }
-      this.play();
     }
   }
 
@@ -2361,10 +2362,6 @@ class Player extends Component {
 
       if (this.options_.preload === 'auto') {
         this.load();
-      }
-
-      if (this.options_.autoplay) {
-        this.play();
       }
 
     // Set the source synchronously if possible (#2326)

@@ -1,3 +1,27 @@
+<a name="6.2.8"></a>
+## [6.2.8](https://github.com/videojs/video.js/compare/v6.2.7...v6.2.8) (2017-09-01)
+
+### Bug Fixes
+
+* rely on browser or tech to handle autoplay ([#4582](https://github.com/videojs/video.js/issues/4582)) ([95c4ae0](https://github.com/videojs/video.js/commit/95c4ae0))
+* **package:** remove pkg.module ([#4594](https://github.com/videojs/video.js/issues/4594)) ([5e23048](https://github.com/videojs/video.js/commit/5e23048)), closes [#4580](https://github.com/videojs/video.js/issues/4580)
+
+### Documentation
+
+* **COLLABORATOR_GUIDE:** how to release Video.js ([#4586](https://github.com/videojs/video.js/issues/4586)) ([9588602](https://github.com/videojs/video.js/commit/9588602))
+* update to width and height doc comments ([#4592](https://github.com/videojs/video.js/issues/4592)) ([006fb3b](https://github.com/videojs/video.js/commit/006fb3b))
+
+<a name="6.2.7"></a>
+## [6.2.7](https://github.com/videojs/video.js/compare/v6.2.6...v6.2.7) (2017-08-24)
+
+### Bug Fixes
+
+* use typeof for checking preload option ([#4574](https://github.com/videojs/video.js/issues/4574)) ([fe63992](https://github.com/videojs/video.js/commit/fe63992))
+
+### Chores
+
+* **package:** update rollup to version 0.47.5 ([#4572](https://github.com/videojs/video.js/issues/4572)) ([7b251d0](https://github.com/videojs/video.js/commit/7b251d0))
+
 <a name="6.2.6"></a>
 ## [6.2.6](https://github.com/videojs/video.js/compare/v6.2.5...v6.2.6) (2017-08-16)
 
